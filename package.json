@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/salej1/swim/issues"
   },
-  "homepage": "https://github.com/salej1/swim#readme"
+  "homepage": "https://github.com/salej1/swim#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
 }
