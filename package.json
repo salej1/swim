@@ -1,0 +1,11 @@
+{
+  "name": "swim",
+  "version": "1.0.0",
+  "description": "private web page",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "author": "salej1",
+  "license": "ISC"
+}
