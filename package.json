@@ -4,8 +4,17 @@
   "description": "private web page",
   "main": "app.js",
   "scripts": {
-    "test": "nodemon app.js"
+    "test": "nodemon app.js",
+    "start": "node app.js"
   },
   "author": "salej1",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salej1/swim.git"
+  },
+  "bugs": {
+    "url": "https://github.com/salej1/swim/issues"
+  },
+  "homepage": "https://github.com/salej1/swim#readme"
 }
