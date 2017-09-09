@@ -168,15 +168,16 @@ jQuery(function($) {
       $("#map").gmap3({
         map:{
           options:{
-            center:[-37.8152065,144.963937],
-            zoom: 14,
+            center:[19.6942422,-101.1739677],
+            zoom: 15,
             scrollwheel: false
           }
         },
         marker:{
           values:[
-            {address:"King Street, Melbourne Victoria 3000 Australia", data:" Dart Headquarter ! ! ", 
-             options:{icon: "http://themewinter.com/html/dart/dart-marker.png"}}
+            {lating: [19.6942422,-101.1739677],
+             address:"Av Lázaro Cárdenas 2375, Chapultepec Nte., 58260 Morelia, Mich", 
+             data:"Pinturas Sherwin Williams"}
           ],
           options:{
             draggable: false
