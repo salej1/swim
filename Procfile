@@ -1,1 +1,1 @@
-web: node start 8080
+web: npm start
