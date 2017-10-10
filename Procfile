@@ -1,0 +1,1 @@
+web: node start 8080
