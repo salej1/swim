@@ -53,7 +53,7 @@ body{
 
 body, p{
 	font-family: 'Raleway', sans-serif;
-	font-weight: 500; 
+	font-weight: 500;
 	line-height: 24px;
 }
 
@@ -115,8 +115,8 @@ a:focus{
 	outline: 0;
 }
 
-.form-group [class*="col-sm-"], 
-.form-group [class*="col-md-"], 
+.form-group [class*="col-sm-"],
+.form-group [class*="col-md-"],
 .form-group [class*="col-lg-"] {
 	margin-bottom: 15px;
 	display: inline-block;
@@ -133,8 +133,8 @@ a:focus{
 }
 
 .dart-carousel-controller .left,
-.dart-carousel-controller .right, 
-.owl-controls .owl-prev, 
+.dart-carousel-controller .right,
+.owl-controls .owl-prev,
 .owl-controls .owl-next{
 	cursor: pointer;
 	background: #f6f6f6;
@@ -155,13 +155,13 @@ a:focus{
 
 .dart-carousel-controller .left:hover,
 .dart-carousel-controller .right:hover,
-.owl-controls .owl-prev:hover, 
+.owl-controls .owl-prev:hover,
 .owl-controls .owl-next:hover{
 	background: #084095;
 	color: #fff;
 }
 
-.owl-controls .owl-page, 
+.owl-controls .owl-page,
 .owl-controls .owl-buttons div{
 	display: inline-block;
 }
@@ -216,10 +216,10 @@ ul.bxslider{
 	border-radius: 100% !important;
 }
 
-.bx-wrapper .bx-pager.bx-default-pager a:hover, 
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active{
 	background: #084095 !important;
-	
+
 }
 
 /*-- Sidebar --*/
@@ -619,13 +619,13 @@ ul.navbar-nav li.active > .dropdown-menu > li.active > a{
 	border-bottom: 1px solid rgba(255,255,255,.1);
 }
 
-.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, 
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus,
 .dropdown-menu>li.active>a{
 	background: none !important;
 	color: #084095 !important;
 }
 
-.nav .open>a, .nav .open>a:hover, 
+.nav .open>a, .nav .open>a:hover,
 .nav .open>a:focus{
 	background: transparent;
 	border:0;
@@ -702,7 +702,7 @@ ul.navbar-nav li.active > .dropdown-menu > li.active > a{
 	padding: 15px;
 }
 
-#main-slide .carousel-control .fa-angle-left, 
+#main-slide .carousel-control .fa-angle-left,
 #main-slide .carousel-control .fa-angle-right{
 	position: absolute;
 	top: 50%;
@@ -786,7 +786,7 @@ ul.navbar-nav li.active > .dropdown-menu > li.active > a{
 
 /*-- Animation --*/
 .carousel .item.active .animated1 {
-	
+
 }
 
 .carousel .item.active .animated2 {
@@ -848,7 +848,7 @@ ul.navbar-nav li.active > .dropdown-menu > li.active > a{
 	color: #fff;
 	font-size: 48px;
 	background: #084095;
-	width:150px; 
+	width:150px;
 	height:150px;
 	line-height: 150px;
 	-webkit-box-shadow: 0 0 0 12px #f0f0f0;
@@ -916,7 +916,7 @@ ul.navbar-nav li.active > .dropdown-menu > li.active > a{
 	-webkit-box-shadow: 0 0 0 3px rgba(0, 0, 0, .09);
 	-moz-box-shadow: 0 0 0 3px rgba(0, 0, 0, .09);
 	box-shadow: 0 0 0 3px rgba(0, 0, 0, .09);
-	z-index: 3;	
+	z-index: 3;
 }
 
 .feature-content-wrapper{
@@ -944,7 +944,7 @@ ul.navbar-nav li.active > .dropdown-menu > li.active > a{
 	-webkit-box-shadow: 0 0 0 3px rgba(0, 0, 0, .09);
 	-moz-box-shadow: 0 0 0 3px rgba(0, 0, 0, .09);
 	box-shadow: 0 0 0 3px rgba(0, 0, 0, .09);
-	z-index: 3;	
+	z-index: 3;
 }
 
 .feature-content-wrapper:after{
@@ -961,7 +961,7 @@ ul.navbar-nav li.active > .dropdown-menu > li.active > a{
 	-webkit-box-shadow: 0 0 0 3px rgba(0, 0, 0, .09);
 	-moz-box-shadow: 0 0 0 3px rgba(0, 0, 0, .09);
 	box-shadow: 0 0 0 3px rgba(0, 0, 0, .09);
-	z-index: 3;	
+	z-index: 3;
 }
 
 .feature-box .feature-icon{
@@ -1042,7 +1042,7 @@ ul.navbar-nav li.active > .dropdown-menu > li.active > a{
     position:absolute;
     top: -100%;
     right:0;
-    background:rgba(235, 44, 51, 0.85);
+    background:rgba(8, 64, 149, 0.85);
     width:100%;
     height:100%;
     text-align:center;
@@ -1064,7 +1064,7 @@ ul.navbar-nav li.active > .dropdown-menu > li.active > a{
 
 #lightbox .modal-content {
     display: inline-block;
-    text-align: center;   
+    text-align: center;
 }
 
 #lightbox .close {
@@ -1082,7 +1082,7 @@ ul.navbar-nav li.active > .dropdown-menu > li.active > a{
 
 /* About Us
 ================================================== */
-    
+
 /*-- Intro --*/
 
 
@@ -1344,14 +1344,14 @@ ul.navbar-nav li.active > .dropdown-menu > li.active > a{
 	background: #f2f2f2;
 }
 
-.plan-name { 
-	background: #4b4b4b; 
+.plan-name {
+	background: #4b4b4b;
 	color: #fff;
-	display: block; 
-	font-size: 24px; 
-	line-height: 30px; 
-	font-weight: 700;  
-	padding: 20px 0; 
+	display: block;
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 700;
+	padding: 20px 0;
 	position: relative;
 	text-transform: uppercase;
 }
@@ -1367,8 +1367,8 @@ ul.navbar-nav li.active > .dropdown-menu > li.active > a{
 	margin-left: -16px;
 }
 
-.plan-price { 
-	font-size: 48px; 
+.plan-price {
+	font-size: 48px;
 	position: relative;
 	width: 145px;
 	height: 145px;
@@ -1382,7 +1382,7 @@ ul.navbar-nav li.active > .dropdown-menu > li.active > a{
 	box-shadow: 0 0 0 10px #fff;
 }
 
-.plan-price .currency { 
+.plan-price .currency {
 	top: -0.9em;
 	font-size: 50%;
 	left: -0.01em;
@@ -1406,8 +1406,8 @@ ul.navbar-nav li.active > .dropdown-menu > li.active > a{
 	font-weight: 700;
 }
 
-.plan ul { 
-	background: #fff; 
+.plan ul {
+	background: #fff;
 	padding: 0;
 	margin-bottom: 0;
 }
@@ -1418,11 +1418,11 @@ ul.navbar-nav li.active > .dropdown-menu > li.active > a{
 	font-weight: 500;
 }
 
-.plan ul li:first-child { 
+.plan ul li:first-child {
 	border-top: 0 !important;
 }
 
-.plan a.btn { 
+.plan a.btn {
 	background: #4b4b4b;
 	margin: 17px auto;
 	padding: 10px 30px;
@@ -1714,7 +1714,7 @@ ul.navbar-nav li.active > .dropdown-menu > li.active > a{
 
 
 
-/* Main Content 
+/* Main Content
 ================================================== */
 
 #main-container{
@@ -1723,7 +1723,7 @@ ul.navbar-nav li.active > .dropdown-menu > li.active > a{
 
 
 
-/* Subpages 
+/* Subpages
 ================================================== */
 
 /*-- Subpage common --*/
@@ -1865,7 +1865,7 @@ h3.page-content-title{
 	overflow: hidden;
 }
 
-.full-video embed, .full-video iframe, 
+.full-video embed, .full-video iframe,
 .full-video object, .full-video video {
 	top: 0;
 	left: 0;
@@ -2214,7 +2214,7 @@ h3.page-content-title{
 	#portfolio-carousel .caption h4{
 		font-size: 16px;
 	}
-	#portfolio-carousel .thumbnail 
+	#portfolio-carousel .thumbnail
 	.caption .caption-content{
 		bottom: 5px;
 	}
@@ -2443,7 +2443,7 @@ h3.page-content-title{
 	}
 }
 
-/* Extra Small Devices, Phones */ 
+/* Extra Small Devices, Phones */
 @media (max-width : 479px) {
 
 	/* Header */
@@ -2508,7 +2508,7 @@ h3.page-content-title{
 
 }
 
-/* Custom, iPhone Retina */ 
+/* Custom, iPhone Retina */
 @media (min-width : 320px) and (max-width: 478px)  {
 
 
