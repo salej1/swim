@@ -14,9 +14,10 @@ var log = function log(msj) {
 
 var run = function run() {
 	log('Content to json Start');
-
-	var productLists = [];
 	var structure = {};
+
+	// Import Products
+	var productLists = [];
 	var productsPath = path.join(__dirname, assetsPath, 'content', 'product');
 
 	structure.productLists = productLists;
@@ -45,6 +46,19 @@ var run = function run() {
 			product.text = productData[1];
 		});
 	});
+
+	// Import Videos
+	var videoList = [];
+	var videosPath = path.join(__dirname, assetsPath, 'content', 'video');
+	var fileList = fs.readdirSync(videosPath);
+	fileList.forEach(function(file) {
+		log('Adding video ' + file);
+		videoList.push({
+			src: 'videos/' + file
+		});
+	});
+
+	structure.videoList = videoList;
 
 	log('Finished. Posting results');
 
